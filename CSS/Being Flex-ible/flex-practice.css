@@ -1,0 +1,24 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.row, row2{
+    display: flex;
+    color: white;
+    padding: 20px;
+}
+.col{
+    flex: 1;
+    background-color: rgb(27, 75, 163);
+    margin: 10px;
+}
+.col-2{
+    flex: 2;
+    background-color: rgb(7, 75, 163);
+    margin: 10px;
+}
+.col-3{
+    flex: 3;
+    background-color: rgb(27, 75, 163);
+    margin: 10px;
+}
