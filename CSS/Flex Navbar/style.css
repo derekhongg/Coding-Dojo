@@ -1,0 +1,35 @@
+@font-face {
+    font-family: roboto-light;
+    src: url(Roboto/Roboto-Light.ttf);
+}
+*{
+    font-family: roboto-light;
+}
+.nav{
+    width: 950px;
+    background-color: darkgray;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.nav-title{
+    align-items: center;
+    margin-left: 10px;
+}
+.btn{
+    background-color: rgb(33, 61, 185);
+    box-shadow: 2px 2px 2px black;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin-left: 250px;
+}
+li{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
