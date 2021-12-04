@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="profile-page-style.css">
+</head>
+<body>
+    <div class = "container">
+        <div class="nav">
+            <h1 class="nav-title">Profile</h1>
+            <ul class="nav-links">
+                <li class="col"><a href="#">Home</a></li>
+                <li class="col"><a href="#" class="active">My Profile</a></li>
+                <li class="col"><a href="#">Find Connections</a></li>
+                <li><button id="btn">Sign Out</button></li>
+            </ul>
+        </div>
+        <div class = "personal-info">
+            <div class="card">
+                <div class = "title">
+                    <img class="large-icon" src="icons/user-circle.png" alt="User Icon">
+            </div>
+                <div class = "information">
+                    <h1>Derek Hong</h1>
+                    <div class="location">
+                        <h3><img class="small-icon" src="icons/map-marker.png" alt="Map Marker">   Seattle</h3> 
+                    </div>
+                    <div>
+                        <h4>Developer | Engineer | Problem Solver</h4>
+                    </div>
+                    <div>
+                        <h4>Master of shadows and the Internet!</h4>
+                    </div>
+                    <div class = "gear">
+                        <img class="small-icon" src="icons/gear.png" alt="Gear Icon">
+                        <a id="link" href="https://www.instagram.com/derekhongg/"> edit profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="education-infomation">
+                <h3 id="edu-title">Education</h3>
+                <div>
+                    <h2 class="card-text">Coding Dojo - Full Stack Bootcamp</h2>
+                </div>
+                <div>
+                    <h3 class="card-text">Nov 2021 - May 2022</h3>
+                </div>        
+                <div>
+                    <h3 class="card-text">Future Expert in Python & MERN</h3>
+                </div>
+            </div>
+        </div>
+        <div class="connections">
+            <div class="connection-requests">
+                    <div class="connection-request-header">
+                        <h2>Connection Requests</h2>
+                    </div>
+                    <div>
+                        <h3><img id="connection-req-details" class="small-icon" src="icons/user-circle.png" alt="User Icon">   Todd E <img class = "small-icon" src="icons/accept-circle.png" alt=""><img class = "small-icon" src="icons/close-circle.png" alt=""></h3> 
+                        <h3><img id="connection-req-details" class="small-icon" src="icons/user-circle.png" alt="User Icon">   Phil K <img class = "small-icon" src="icons/accept-circle.png" alt=""><img class = "small-icon" src="icons/close-circle.png" alt=""></h3>
+                    </div>
+            </div>
+            <div class="your-connections">
+                <h2 class="connection-header">Your Connections</h2>
+                <div>
+                    <h3><img class="small-icon" src="icons/user-circle.png" alt="User Icon">   Adrien D</h3>
+                    <h3><img class="small-icon" src="icons/user-circle.png" alt="User Icon">   Anne J</h3>
+                    <h3><img class="small-icon" src="icons/user-circle.png" alt="User Icon">   Alayne T</h3>
+                    <h3><img class="small-icon" src="icons/user-circle.png" alt="User Icon">   Arry Y</h3>
+                </div>
+                <div>
+                    <a id="view-more" href="https://www.google.com/">View More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
