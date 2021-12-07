@@ -1,0 +1,119 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.connections{
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+}
+.nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+.nav-title{
+    align-items: center;
+    margin-left: 150px;
+}
+.col{
+    flex: 1;
+}
+.nav-links{
+    margin-left: 20px;
+}
+.btn{
+    background-color: rgb(33, 182, 185);
+    box-shadow: 2px 2px 2px black;
+    color: white;
+    margin-left: 175px;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+li{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.card{
+    width: 500px;
+    height: 425px;
+    background-color: white;
+    border-style: solid;
+}
+.title{
+    width: 500px;
+    height: 125px;
+    background-color: rgb(14, 116, 175)
+}
+.large-icon{
+    margin-top: 75px;
+    width: 100px;
+    height: 100px;
+    margin-left: 25px;
+}
+.small-icon{
+    width: 20px;
+    height: 20px;
+}
+.information{
+    margin-left: 30px;
+    margin-top: 65px;
+}
+.link{
+    color: rgb(7, 85, 181);
+}
+.connection-requests{
+    background-color: white;
+    border-style: solid;
+    margin-bottom: 35px;
+}
+.connection-request-header{
+    background-color: rgb(46, 46, 46);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.education-infomation{
+    background-color: white;
+    border-style: solid;
+    margin-top: 20px;
+}
+.edu-title{
+    background-color: rgb(46, 46, 46);
+    color: white;
+    font-size: 25px;
+    margin-top: 0px;
+}
+.your-connections{
+    background-color: white;
+    border-style: solid;
+}
+.connection-header{
+    background-color: rgb(46, 46, 46);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.personal-info{
+    display: inline-block;
+    margin-right: 25px;
+    margin-left: 150px;
+}
+.connections .small-icon{
+    margin-left: 15px;
+}
+.card-text{
+    margin-left: 15px;
+}
+.view-more{
+    color: rgb(14, 116, 175);
+    margin-left: 20px;
+}
