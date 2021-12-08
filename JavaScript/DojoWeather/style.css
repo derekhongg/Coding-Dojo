@@ -1,0 +1,66 @@
+.container{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    background-color: rgb(125, 164, 222);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    cursor: pointer;
+}
+.city-title{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.temp-box{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 20px;
+}
+#weather{
+    border-radius: 50%;
+}
+.temp-info{
+    border-style:solid;
+    background-color: rgb(203, 203, 203);
+}
+.temp{
+    display: inline;
+    margin-inline: 15px;
+}
+#high{
+    color: red;
+}
+#low{
+    color: rgb(44, 114, 235);
+}
+.cookies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border-style: solid;
+    padding: 20px;
+}
+button{
+    height: 20px;
+    width: 70px;
+    margin-top: 10px;
+    background-color: rgb(0, 94, 255);
+    color: white;
+    border-style: none;
+}
+img{
+    padding: 20px;
+}
