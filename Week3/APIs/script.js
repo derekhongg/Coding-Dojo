@@ -21,5 +21,5 @@ async function search(){
     var coderData = await response.json();
     console.log(coderData);
     cardsDiv.innerHTML = makeCoderCard(coderData);
-
+    
 }
