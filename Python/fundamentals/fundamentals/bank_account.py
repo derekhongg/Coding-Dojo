@@ -28,10 +28,10 @@ class BankAccount:
 
 
 
-derek = BankAccount("Derek", 0.1, 12000)
+andre = BankAccount("Derek", 0.1, 12000)
 peter = BankAccount("Peter", 0.15, 5000)
 
-derek.deposit(2000).deposit(4000).deposit(1245).withdraw(3000)
+andre.deposit(2000).deposit(4000).deposit(1245).withdraw(3000)
 peter.deposit(13000).deposit(12534).withdraw(3547).withdraw(1264).withdraw(2184).withdraw(1500)
 
 BankAccount.all_accounts()
