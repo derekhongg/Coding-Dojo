@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>House</title>
+</head>
+<body>
+    <div class="card-body">
+        <h2 class="card-title text-primary">{{house.name}}'s People</h2>
+        <table class="table table-info">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Age</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                {% for people in house.people %}
+                <tr>
+                    <td>{{ people.first_name }}</td>
+                    <td>{{ people.last_name }}</td>
+                    <td>{{ people.age }}</td>
+                    <td>
+                        <a href="">Edit |</a>
+                        <a href="/people/destroy/{{people.id}}"> Delete</a>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+<a href="/">Home</a>
+</body>
+</html>
