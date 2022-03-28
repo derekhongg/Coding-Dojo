@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+
+.header{
+  font-size: xx-large;
+  margin: 25px 0px;
+}
+
+.form-fields>input{
+  border-radius: 30px;
+  margin-top: 5px;
+}
+
+.submit-input{
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+}
